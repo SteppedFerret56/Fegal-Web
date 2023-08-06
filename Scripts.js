@@ -17,7 +17,7 @@ function openMenuOnHover(cityName, elmnt, color) {
   }
 
   function openHomePage() {
-    window.location.href = "Home page.html";
+    window.location.href = "index.html";
   }  
 
   function openUpdatesPage() {
