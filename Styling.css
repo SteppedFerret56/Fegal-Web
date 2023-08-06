@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'GidoleFont';
+    src: url(Documents/GidoleFont/Gidole-Regular.ttf) format('truetype');
+}
+
+h1 { 
+    font-family: GidoleFont;
+}
+
+p { 
+    font-family: GidoleFont;
+}
+ 
+ body {
+    background: linear-gradient(rgb(28, 48, 81), #005263);
+    width: 100%;
+    margin: 0;
+    padding-bottom: 381px;
+}
+
+.tablink {
+    background-color: rgb(42, 42, 54);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: auto;
+    border-radius: 20px;
+    transition: transform .3s;
+    display: block;
+    margin: 0 10px;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+    transform: scale(1.1);
+  }
+  
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    position: relative;
+    top: 0;
+    width: 1;
+    text-align: center;
+  }
+
+  #Home.defaultOpen,
+  #Home.defaultOpen .image-overlay {
+    display: block;
+  }
+
+  #Home {background-color: rgb(42, 42, 54);}
+  #Updates {background-color:rgb(42, 42, 54);}
+  #Services {background-color:rgb(42, 42, 54);}
+  #AirCS {background-color:rgb(42, 42, 54);}
+  #Travel-U {background-color:rgb(42, 42, 54);}
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #8B1E3F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1
+  }
+
+  .Bodybox {
+    background: rgb(42, 42, 54);
+    width: 60%;
+    height: auto;
+    left: 20%;
+    position: relative;
+    top: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+.Para1 {
+    font-family: GidoleFont;
+    color: white;
+    font-size: 35px;
+}
+
+.Image_1 { 
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.cities-tabs-in {
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.Sub-Para1 {
+    position: absolute;
+    bottom: 30%;
+    left: 43%;
+    right: 43%;
+    color: white;
+    text-align: center;
+}
+
+.Para2 {
+    font-family: GidoleFont;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.cities-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B1E3F;
+    border-radius: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+
+.TFS-image {
+    max-width: 40%;
+    height: auto;
+    margin-top: 0 auto;
+    padding: 20px;
+}
+
+.cities-text {
+    font-family: GidoleFont;
+    color: white;
+    font-size: 24px;
+    margin: 0 20px;
+    flex: 1;
+    font-size: 28px;
+  }
+  
+.para3 {
+    font-family: GidoleFont;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.tourist-image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tourist-img-1 {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    filter: blur(0); 
+    transition: filter 0.3s; 
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0); 
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-text {
+    font-family: GidoleFont;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: none; 
+  }
+  
+  .tourist-image-container:hover .tourist-img-1 {
+    filter: blur(10px); 
+  }
+  
+  .tourist-image-container:hover .image-overlay {
+    opacity: 1; 
+  }
+  
+  .tourist-image-container:hover .image-text {
+    display: block; 
+  }

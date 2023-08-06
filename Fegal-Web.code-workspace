@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Fegal-Web",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Fegal-Web",
+		"liveServer.settings.port": 5501
+	}
+}
