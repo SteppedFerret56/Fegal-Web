@@ -11,24 +11,3 @@ function openMenuOnHover(cityName, elmnt, color) {
     document.getElementById(cityName).style.display = "block";
     elmnt.style.backgroundColor = color;
   }
-  
-  function openLink(url) {
-    window.location.href = url;
-  }
-
-  function openHomePage() {
-    window.location.href = "index.html";
-  }  
-
-  function openUpdatesPage() {
-    window.location.href = "Updates.html";
-  }
-
-
-  function openServicesPage() {
-    window.location.href = "Services.html";
-  }
-
-  function openTravelAdvisoriesPage() {
-    window.location.href = "TravelAdvisories.html";
-  }
