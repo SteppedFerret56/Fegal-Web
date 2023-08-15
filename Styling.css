@@ -31,12 +31,12 @@ p {
     transition: transform .3s;
     display: block;
     margin: 0 10px;
-  }
+}
   
   .tablink:hover {
     background-color: #777;
     transform: scale(1.1);
-  }
+}
   
   .tabcontent {
     color: white;
@@ -46,12 +46,12 @@ p {
     top: 0;
     width: 1;
     text-align: center;
-  }
+}
 
   #Home.defaultOpen,
   #Home.defaultOpen .image-overlay {
     display: block;
-  }
+}
 
   #Home {background-color: rgb(42, 42, 54);}
   #Updates {background-color:rgb(42, 42, 54);}
@@ -69,9 +69,10 @@ p {
     position: relative;
     top: 0px;
     position: sticky;
+    border-bottom: 2px solid white;
     top: 0;
     z-index: 1
-  }
+}
 
   .Bodybox {
     background: rgb(42, 42, 54);
@@ -85,7 +86,7 @@ p {
     flex-direction: column;
     align-items: center;
     padding-bottom: 40px;
-  }
+}
 
 .Para1 {
     font-family: GidoleFont;
@@ -125,34 +126,57 @@ p {
     color: white;
     font-size: 35px;
     text-align: center;
-}
+  }
 
 .cities-tabs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #8B1E3F;
-    border-radius: 20px;
-    max-width: 90%;
-    margin: 0 auto;
-    
+  display: flex;
+  align-items: center;
+  background-color: #8B1E3F;
+  border-radius: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .TFS-image {
-    max-width: 40%;
-    height: auto;
-    margin-top: 0 auto;
-    padding: 20px;
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.cities-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
 }
 
 .cities-text {
-    font-family: GidoleFont;
-    color: white;
-    font-size: 24px;
-    margin: 0 20px;
-    flex: 1;
-    font-size: 28px;
-  }
+  font-family: GidoleFont;
+  color: white;
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cities-blurb {
+  font-family: GidoleFont;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.cities-button a {
+  font-family: GidoleFont;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(42, 42, 54);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
   
 .para3 {
     font-family: GidoleFont;
@@ -164,7 +188,7 @@ p {
 .tourist-image-container {
     position: relative;
     display: inline-block;
-  }
+}
   
   .tourist-img-1 {
     width: 80%;
@@ -174,7 +198,7 @@ p {
     margin: 0 auto;
     filter: blur(0); 
     transition: filter 0.3s; 
-  }
+}
   
   .image-overlay {
     position: absolute;
@@ -191,7 +215,7 @@ p {
     background-color: rgba(0, 0, 0, 0); 
     opacity: 0; 
     transition: opacity 0.3s; 
-  }
+}
   
   .image-text {
     font-family: GidoleFont;
@@ -199,16 +223,16 @@ p {
     color: white;
     text-align: center;
     display: none; 
-  }
+}
   
   .tourist-image-container:hover .tourist-img-1 {
     filter: blur(10px); 
-  }
+}
   
   .tourist-image-container:hover .image-overlay {
     opacity: 1; 
-  }
+}
   
   .tourist-image-container:hover .image-text {
     display: block; 
-  }
+}
