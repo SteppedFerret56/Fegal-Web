@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'GidoleFont';
+    src: url(/Documents/GidoleFont/Gidole-Regular.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}  
+
+.navContainer,
+.navContainerRight {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: transparent;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.navContainer {
+  left: 0;
+}
+
+.navContainerRight {
+  right: 0;
+}
+
+.navBtn {
+  color: white;
+  font-size: 30px;
+  font-family: GidoleFont;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.slideshow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: black;
+}
+
+.slideDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.slideStick {
+  cursor: pointer;
+  height: 0.1px;
+  width: 30px;
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  display: block;
+  transition: background-color 0.6s ease, transform 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@keyframes fade {
+  from {opacity: 0.1}
+  to {opacity: 1}
+}
+
+.slideSections {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.slideText {
+  color: white;
+  font-family: GidoleFont;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.parallaxShopsDine,
+.parallaxAirlines,
+.parallaxAirportMap {
+  height: 60vh;
+  width: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallaxText {
+  color: white;
+  font-size: 50px;
+  font-family: GidoleFont;
+  text-align: center;
+}
+
+.parallaxBlurb {
+  color: white;
+  font-size: 30px;
+  font-family: GidoleFont;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.parallaxContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parallaxBtn {
+  display: flex;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(42, 42, 54);
+  font-family: GidoleFont;
+  font-weight: Bold;
+  font-size: larger;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
