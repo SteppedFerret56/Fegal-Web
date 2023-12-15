@@ -6,10 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="bcb57798-70b2-4f97-bcae-58cf5f22ffb4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Coming_Soon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/KMD.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/TFS.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styling.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airports/Kuddelmuddel-Airport/Scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airports/Kuddelmuddel-Airport/Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airports/Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/GidoleFont/Gidole-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/GidoleFont/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/KMDairport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Roads.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Runway.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Spruce-forest.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Tourist.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fegal-Web.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home-New/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home-New/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styling.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +93,7 @@
       <workItem from="1698933146741" duration="4520000" />
       <workItem from="1702555866731" duration="63000" />
       <workItem from="1702555938487" duration="18310000" />
-      <workItem from="1702632496170" duration="9028000" />
+      <workItem from="1702632496170" duration="9362000" />
     </task>
     <servers />
   </component>
