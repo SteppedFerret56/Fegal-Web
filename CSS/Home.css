@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "GidoleFont";
+    src: url(/Documents/GidoleFont/Gidole-Regular.ttf) format('truetype');
+}
+
+body {
+    width: 1;
+    margin: 0;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.homeImgMain {
+    width: 100%;
+    height: auto;
+    top: 0;
+    vertical-align: bottom;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.navBtn {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.imgText {
+    color: white;
+    font-family: GidoleFont;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Media Scroller */
+
+.media-scroller-title {
+    font-family: GidoleFont;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background: #2a2a36;
+    display: grid;
+}
+
+.media-scroller-title h1 {
+    margin: 0;
+}
+.media-scroller {
+    margin: 0 auto;
+    overflow-x: scroll;
+    position: relative;
+    -ms-overflow-style: none;
+}
+
+.innerContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.media-scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.innerContainer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 40%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    scroll-behavior: smooth;
+}
+
+.media-element {
+    background: #2a2a36;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.media-element > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.media-text {
+    font-family: GidoleFont;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.snaps-inline{
+    scroll-snap-type: inline mandatory;
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
+}
+
+/* Cities List */
+
+.fegal-cities-container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    background: #2a2a36;
+}
+
+.fegal-cities-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1%;
+    background-color: #717171;
+    border-radius: 20px;
+}
+
+.fegal-cities-tab:hover .fegal-cities-img {
+    transform: scale(1.1); /* Add a scale effect on hover */
+}
+
+.fegal-cities-img {
+    width: 50%;
+    height: auto;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: transform 0.3s ease; /* Add smooth transition for better user experience */
+}
+
+
+.fegal-city-name {
+    font-family: GidoleFont;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.fegal-cities-button {
+    font-family: GidoleFont;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
