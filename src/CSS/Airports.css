@@ -1,22 +1,8 @@
-@font-face {
-    font-family: 'GidoleFont';
-    src: url(/src/GidoleFont/Gidole-Regular.ttf) format('truetype');
-}
-
-body {
-    width: 1;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}  
-
 .parallaxKMDAirport,
 .parallaxComingSoon,
 .parallaxAirportsList {
     height: 60vh;
-    width: 1;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,111 +12,41 @@ a {
     justify-content: center;
 }
 
-.parallaxText {
-    color: white;
-    font-size: 50px;
-    font-family: GidoleFont;
-    text-align: center;
-}
-
 .parallaxContent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
 }
 
-.navBar {
-    background-color: rgb(42, 42, 54);
-    width: 100%;
-    height: auto;
-    top: 0;
+.parallaxText {
+    color: white;
+    font-size: 50px;
+    font-family: 'GidoleFont', sans-serif;
 }
 
-.navContainerRight {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  background-color: transparent;
-  padding: 15px;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  right: 0;
-}
-
-.navBtn {
-  color: white;
-  font-size: 30px;
-  font-family: GidoleFont;
-  font-weight: bold;
-  margin-right: 20px;
-}
-
-/* Popup container */
-.popup {
-    position: relative;
-    display: flex;
-    display: inline-block;
-    cursor: pointer;
-    font-family: GidoleFont;
-    font-weight: Bold;
-    font-size: larger;
-    background-color: white;
-    width: 400px;
-    border: 0;
-    border-radius: 10px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
-}
-  
-  /* The actual popup (appears on top) */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 300px;
-    background-color: #2a2a30ff;
-    color: #fff;
+.airportsInfo {
+    font-family: GidoleFont, sans-serif;
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     border-radius: 6px;
     padding: 10px;
-    position: fixed;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+    width: 70%;
+}
 
-  .popuptext {
-    font-size: larger;
-  }
+.parallaxText,
+.airportsInfo {
+    margin: 10px 0; /* Add some margin for spacing */
+}
   
-  @keyframes fadeIn {
-    from { opacity: 0; visibility: hidden; }
-    to { opacity: 1; visibility: visible; }
-  }
-  
-  @keyframes fadeOut {
-    from { opacity: 1; visibility: visible; }
-    to { opacity: 0; visibility: hidden; }
-  }
-  
-  .popup .show {
-    animation: fadeIn 1s ease-in-out;
-    animation-fill-mode: forwards;
-  }
-  
-  .popup .hide {
-    animation: fadeOut 1s ease-in-out;
-    animation-fill-mode: forwards;
-  }
-  
-  .parallaxBtn {
+.parallaxBtn {
     display: flex;
     display: inline-block;
     cursor: pointer;
     color: rgb(42, 42, 54);
-    font-family: GidoleFont;
+    font-family: 'GidoleFont', sans-serif;
     font-weight: Bold;
     font-size: larger;
     background-color: white;
@@ -139,14 +55,14 @@ a {
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
-  }
+}
 
-  .parallaxBtnFake {
+.parallaxBtnFake {
     display: flex;
     display: inline-block;
     cursor: not-allowed;
     color: rgb(42, 42, 54);
-    font-family: GidoleFont;
+    font-family: 'GidoleFont', sans-serif;
     font-weight: Bold;
     font-size: larger;
     background-color: rgb(118, 118, 118);
@@ -155,4 +71,4 @@ a {
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
-  }
+}

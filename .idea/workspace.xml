@@ -6,11 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="bcb57798-70b2-4f97-bcae-58cf5f22ffb4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airports/Kuddelmuddel-Airport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Airports/Kuddelmuddel-Airport/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Airports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KMDairport.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Runway.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spruce-forest.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tourist.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kuddelmuddel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kuddelmuddel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelAdvisories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TravelAdvisories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Updates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Updates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/Airports.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Airports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/KuddelmuddelAirport.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/KuddelmuddelAirport.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript/KuddelmuddelAirport.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/KuddelmuddelAirport.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -54,15 +64,24 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/flynn/Documents/Projects/raceCS&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Projects/AviaNav&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,6 +100,19 @@
       <workItem from="1702555866731" duration="63000" />
       <workItem from="1702555938487" duration="18310000" />
       <workItem from="1702632496170" duration="10044000" />
+      <workItem from="1712898882799" duration="62000" />
+      <workItem from="1712898954222" duration="1291000" />
+      <workItem from="1712924049837" duration="1208000" />
+      <workItem from="1713070308741" duration="3616000" />
+      <workItem from="1713180247546" duration="599000" />
+      <workItem from="1713244349067" duration="1868000" />
+      <workItem from="1714033760664" duration="7000" />
+      <workItem from="1715257196971" duration="628000" />
+      <workItem from="1716630937784" duration="4530000" />
+      <workItem from="1716799665475" duration="288000" />
+      <workItem from="1716888117830" duration="850000" />
+      <workItem from="1722170722356" duration="4805000" />
+      <workItem from="1722341065032" duration="5200000" />
     </task>
     <servers />
   </component>

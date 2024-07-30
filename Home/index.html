@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <script src="/src/JavaScript/global.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/CSS/global.css">
     <link rel="stylesheet" type="text/css" href="/src/CSS/Home.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="/src/JavaScript/Home.js"></script>
 </head>
 <body>
-    <div class="navContainer">
-        <div class="imgContainer">
-            <h1 class="imgText">Welcome To Fegal!</h1>
-            <img class="homeImgMain" src="https://github.com/SteppedFerret56/Images-Fegal-Web/raw/main/homeImages/discoverKMD.jpg"/>
-            <div class="btnContainer">
-                <a class="navBtn" href="">
-                    <i class="material-icons">home</i></a>
-                <a class="navBtn" href="/Airports/">
-                    <i class="material-icons">flight</i></a>
-                <a class="navBtn" href="/Updates/">
-                    <i class="material-icons">check_circle</i></a>
-                <a class="navBtn" href="/Services/">
-                    <i class="material-icons">build</i></a>
-                <a class="navBtn" href="/TravelAdvisories/">
-                    <i class="material-icons">time_to_leave</i></a>
-            </div>
+    <div class="menuBar">
+        <img src="/src/Fegal.png" alt="Fegal Logo" class="menuBarLogo">
+        <span onclick="openNavmenu()" class="sideNavMenuIcon material-icons">menu</span>
+        <div class="sideNavContainer">
+            <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-icons">close</i></a>
+            <a href="/Home">Home</a>
+            <a href="/Services">Services</a>
+            <a href="/TravelAdvisories">Travel Advisories</a>
+            <a href="/Updates">News</a>
+            <a href="/Airports">Airports</a>
+            <a href="">Cities</a>
+            <a href="https://aircs.racing/">AirCS</a>
+        </div>
+    </div>
+    <div class="imgContainer">
+        <h1 class="imgText">Welcome to Fegal</h1>
+        <img class="homeImgMain" src="https://github.com/SteppedFerret56/Images-Fegal-Web/raw/main/homeImages/discoverKMD.jpg">
+        <div class="btnContainer">
+            <button class="scrollButton" id="scrollDown"><i class="material-icons">keyboard_arrow_down</i></button>
         </div>
     </div>
     <div class="media-scroller-title">
         <h1>Discover Fegal</h1>
     </div>
-    <div class="media-scroller snaps-inline" id="horizontalScroll">
-        <div class="innerContainer" id="horizontalScroll">
+    <div class="scrollContainer">
+        <div class="scrollContent">
             <div class="media-element" >
                 <img src="https://github.com/SteppedFerret56/Images-Fegal-Web/raw/main/homeImages/attractionLizard.jpg">
                 <p class="media-text">Dino Lizard</p></div>
@@ -47,6 +52,8 @@
                 <img src="https://github.com/SteppedFerret56/Images-Fegal-Web/raw/main/homeImages/attractionUFO.jpg">
                 <p class="media-text">UFO</p></div>
         </div>
+        <button class="scrollButton" id="scrollLeft"><i class="material-icons">keyboard_arrow_left</i></button>
+        <button class="scrollButton" id="scrollRight"><i class="material-icons">keyboard_arrow_right</i></button>
     </div>
     <div class="fegal-cities-container">
         <img class="fegal-cities-img" src="https://github.com/SteppedFerret56/Images-Fegal-Web/raw/main/homeImages/cityTFS.jpeg">

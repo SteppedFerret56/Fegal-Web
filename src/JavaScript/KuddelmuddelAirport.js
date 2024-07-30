@@ -13,13 +13,13 @@ function showSlides() {
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    
+
     if (slideIndex >= slides.length) {
         slideIndex = 0;
     }
 
     slides[slideIndex].style.display = "block";
-    
+
     for (let i = 0; i < dots.length; i++) {
         dots[i].classList.remove("active");
     }
@@ -34,4 +34,3 @@ function currentSlide(n) {
     slideIndex = n - 1;
     showSlides();
 }
-

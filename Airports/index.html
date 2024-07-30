@@ -4,43 +4,36 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Fegal Airports</title>
+        <script src="/src/JavaScript/global.js"></script>
+        <link rel="stylesheet" type="text/css" href="/src/CSS/global.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/src/CSS/Airports.css"/>
-        <script>
-            function popUpDialogue() {
-              var popup = document.getElementById("Popup");
-              // Check if the popup has the show class
-              if (popup.classList.contains("show")) {
-                // If yes, remove the show class and add the hide class
-                popup.classList.remove("show");
-                popup.classList.add("hide");
-              } else {
-                // If no, remove the hide class and add the show class
-                popup.classList.remove("hide");
-                popup.classList.add("show");
-              }
-            }
-        </script>
     </head>
     <body>
-        <div class="navBar">
-            <div class="navContainerRight">
-                <a class="navBtn" href="/Home/">Fegal-Government</a>
-                <a class="navBtn" href="https://aircs.racing/">AirCS</a>
-            </div>
+    <div class="menuBar">
+        <img src="/src/Fegal.png" alt="Fegal Logo" class="menuBarLogo">
+        <span onclick="openNavmenu()" class="sideNavMenuIcon material-icons">menu</span>
+        <div class="sideNavContainer">
+            <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-icons">close</i></a>
+            <a href="/Home">Home</a>
+            <a href="/Services">Services</a>
+            <a href="/TravelAdvisories">Travel Advisories</a>
+            <a href="/Updates">News</a>
+            <a href="/Airports">Airports</a>
+            <a href="">Cities</a>
+            <a href="https://aircs.racing/">AirCS</a>
         </div>
+    </div>
         <div class="parallaxAirportsList" style="background-image: url('https://github.com/SteppedFerret56/Images-Fegal-Web/raw/main/airportsImages/Runway.jpg');">
             <div class="parallaxContent">
                 <h1 class="parallaxText">Fegal Airports</h1>
-                <button class="popup" onclick="popUpDialogue()">Find out more!
-                    <span class="popuptext" id="Popup">
+                    <h2 class="airportsInfo" id="Popup">
                         Fegal Airports are built with the most care and planning possible, 
                         our airports are fit for planes all shapes and sizes and are built to last.
                         We have strict safety and security policies, so you can be sure that your 
                         visits to any of our airports will be safe and secure. We also offer a wide 
                         range of services to make your visit as comfortable as possible, including
-                        a wide range of shops and restaurants and hotels.
-                    </span>
-                </button>
+                        a wide range of shops and restaurants and hotels.</h2>
             </div>
         </div>
         <div class="parallaxKMDAirport" style="background-image: url('https://github.com/SteppedFerret56/Images-Fegal-Web/raw/main/airportsImages/KMDairport.jpg');">
